@@ -1,0 +1,17 @@
+#HeaderContainer {
+    background-color: rgb(172, 116, 239);
+    height: 70px;
+}
+
+#HeaderContainer > ul {
+    position: relative;
+    top:24px;
+}
+
+#HeaderContainer > ul > li {
+    display: inline;
+    margin-right: 20px;
+}
+
+
+

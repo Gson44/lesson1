@@ -1,0 +1,9 @@
+#FooterContainer {
+    background-color: rgb(15, 207, 237);
+    color:white;
+    height:20vh;
+}
+#FooterContainer > h1 {
+    position: relative;
+    top:40px;
+}
