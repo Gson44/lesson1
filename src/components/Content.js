@@ -11,10 +11,14 @@ const Content = () => {
         alert("Hello World")
     }*/
 
+    const testButton = () => {
+        document.body.style.backgroundColor = "green"
+    }
+
     return (
         <div id="ContentContainer">
             <h1>Main Content</h1>
-            
+            <button onClick={testButton()}> Test</button>
             <button onClick={displayAlert}>Click Me</button>
         </div>
     );

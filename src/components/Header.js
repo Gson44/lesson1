@@ -7,9 +7,9 @@ const Header = () => {
         
         <div id="HeaderContainer">
            <ul>
-             <li>Home</li>
-             <li>About Me</li>
-             <li>Contact</li>
+             <li><a href="/">Home</a></li>
+             <li><a href="/about">About Me</a></li>
+             <li>Contact</li>~
            </ul>
         </div>
     );
